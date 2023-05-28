@@ -1,0 +1,74 @@
+* li {
+  list-style: none;
+}
+.navBar {
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  height: 15vh;
+}
+.navBar ul {
+  display: flex;
+  align-items: center;
+}
+.navBar ul li {
+  padding: 0 25px;
+}
+.navBar ul li a {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+.navBar .logo a {
+  font-size: 2.3rem;
+  color: #fff;
+}
+.container {
+    min-height: 100vh;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    position: absolute;
+}
+.bg {
+    position: absolute;
+    width: 105%;
+    height: 100%;
+}
+.bg::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 105%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(35%);
+    background-image: url("https://s359.thaicdn.net/pagebuilder/763506aa-3525-435e-a5ec-dbab747cf4f7.jpg");
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color: #fff; font-size: 36px;
+}
+h2{
+  color: #000; font-size: 26;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 40px;
+    row-gap: 40px;
+    justify-items: center;
+    align-items: center;
+}
+
+.content{
+    background-color: #fff;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10 px;
+} 
